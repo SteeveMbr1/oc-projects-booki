@@ -47,6 +47,18 @@ a {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    transition: scale .2s, opacity .2s;
+    overflow: hidden;
+}
+
+.card:hover {
+    scale: 1.05;
+    opacity: 0.9;
+}
+
+.card:hover img {
+    object-fit: cover;
+    transform: scale(1.02);
 }
 
 .card img {
@@ -88,6 +100,10 @@ li {
 .header .logo img {
     width: 61px;
     height: 20px;
+}
+
+.header .nav {
+    position: sticky;
 }
 
 .header .nav ul {
@@ -324,23 +340,26 @@ li {
 }
 
 .activities .activities-cards a {
-    flex: 1 1 24%;
+    flex: 1 1;
 }
 
 .activities .activities-cards .card {
     padding: 0;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .activities-cards .card img {
-    height: 380px;
+    aspect-ratio: 3/4;
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
 
 .activities-cards .card .card-content {
     padding: 0.1px 1em;
-    margin: auto 0;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -403,12 +422,6 @@ li {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
-    }
-
-    /****** Activités à Marseille ***********/
-
-    .activities-cards .card img {
-        height: 200px;
     }
 
 }
