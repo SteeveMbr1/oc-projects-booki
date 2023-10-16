@@ -102,17 +102,13 @@ li {
     height: 20px;
 }
 
-.header .nav {
-    position: sticky;
-}
-
 .header .nav ul {
     display: flex;
 }
 
 .header .nav li {
-    margin: 0 2em;
-    padding-top: 1em;
+    margin: 0 2rem;
+    padding-top: 1rem;
     border-top: 2px;
 }
 
@@ -127,8 +123,8 @@ li {
 .search-and-filters {
     display: flex;
     flex-direction: column;
-    gap: 2em;
-    margin-bottom: 1em;
+    gap: 2rem;
+    margin-bottom: 1rem;
 }
 
 .search-and-filters .headline h3,
@@ -160,7 +156,7 @@ li {
 
 .search-location input[type=text] {
     font-weight: bold;
-    padding: 1em;
+    padding: 1rem;
     border: unset;
 }
 
@@ -170,7 +166,7 @@ li {
     font-weight: bold;
     color: var(--main-bg-color);
     background-color: var(--main-color);
-    padding: 0 1em;
+    padding: 0 1rem;
 }
 
 .search-location .icon-btn {
@@ -193,19 +189,19 @@ li {
     flex-wrap: wrap;
     align-items: center;
     font-weight: bold;
-    gap: 1em;
+    gap: 1rem;
 }
 
 .filters .filter-options {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1rem;
 }
 
 .filters .filter-options li {
-    padding: 1em 1em;
+    padding: 1rem 1rem;
     border: 2px solid var(--main-bg-color);
-    border-radius: 2em;
+    border-radius: 2rem;
 }
 
 .filters .filter-options li:hover {
@@ -213,13 +209,13 @@ li {
 }
 
 .filters .filter-options .fa-solid {
-    margin-right: 0.5em;
+    margin-right: 0.5rem;
 }
 
 .search-and-filters .search-info {
     display: flex;
     align-items: center;
-    gap: 0.5em;
+    gap: 0.5rem;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -241,13 +237,13 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 1.5em;
+    gap: 1.5rem;
 }
 
 .hebergements .hebergements-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1rem;
 }
 
 .hebergements .hebergements-cards a {
@@ -265,13 +261,13 @@ li {
 }
 
 .hebergements-cards .card .card-content {
-    padding-left: 0.5em;
+    padding-left: 0.5rem;
 }
 
 .hebergements-cards .card .card-txt h3,
 .hebergements-cards .card .card-txt p {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .hebergements .see-more {
@@ -327,16 +323,16 @@ li {
 /****** Activités à Marseille ***********/
 
 .activities {
-    padding: 2em;
+    padding: 2rem;
 }
 
 .activities .section-title {
-    margin: 1em 0;
+    margin: 1rem 0;
 }
 
 .activities .activities-cards {
     display: flex;
-    gap: 2em;
+    gap: 2rem;
 }
 
 .activities .activities-cards a {
@@ -357,7 +353,7 @@ li {
 }
 
 .activities-cards .card .card-content {
-    padding: 0.1px 1em;
+    padding: 0.1px 1rem;
     display: flex;
     align-items: center;
 }
@@ -369,7 +365,7 @@ li {
     background-color: var(--main-bg-color);
     display: flex;
     justify-content: space-around;
-    padding: 2em;
+    padding: 2rem;
 }
 
 .footer .footer-item {
@@ -378,11 +374,11 @@ li {
 
 .footer .footer-item h3 {
     margin-top: 0;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
 }
 
 .footer .footer-item li {
-    margin: 0.5em 0
+    margin: 0.5rem 0
 }
 
 
@@ -409,7 +405,7 @@ li {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 1em;
+        gap: 1rem;
     }
 
     .populaires-cards a {
@@ -447,7 +443,7 @@ li {
         margin: unset;
         padding: unset;
         flex-basis: 50%;
-        padding-bottom: 1em;
+        padding-bottom: 1rem;
         text-align: center;
     }
 
@@ -491,7 +487,7 @@ li {
 
     .hebergements-and-populaires section {
         border-radius: unset;
-        padding: 1em;
+        padding: 1rem;
         margin: unset;
     }
 
@@ -505,12 +501,12 @@ li {
 
     .populaires .populaires-cards .card {
         width: 100%;
-        margin-top: 1em;
+        margin-top: 1rem;
     }
 
     .hebergements-and-populaires .hebergements {
         background-color: unset;
-        gap: 1em;
+        gap: 1rem;
     }
 
     .hebergements-and-populaires .hebergements-cards {
@@ -530,7 +526,7 @@ li {
     /****** Footer ***********/
     .footer {
         flex-direction: column;
-        gap: 2em;
+        gap: 2rem;
     }
 
 }
